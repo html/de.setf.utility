@@ -3,7 +3,7 @@
 (in-package :common-lisp-user)
 
 (asdf:defsystem :de.setf.utility.test
-  :nicknames (:setf.test)
+  ;:nicknames (:setf.test)
   :depends-on (:de.setf.utility.dot
                :de.setf.utility.walker
                :de.setf.utility.mime)
